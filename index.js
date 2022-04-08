@@ -8,5 +8,6 @@ server.get('/', (req, res) => {
 })
 const port = process.env.PORT || 8080
 server.listen(port, () => {
+  console.log('RUNTIME_ENV', process.env.RUNTIME)
   console.log(`Example app listening at http://localhost:${port}`)
 })

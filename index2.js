@@ -8,5 +8,5 @@ server.get('/', (req, res) => {
 })
 const port = process.env.PORT || 8080
 server.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example Worker has started`)
 })
